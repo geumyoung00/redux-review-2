@@ -6,8 +6,8 @@ export default function App() {
 	const handleResetClick = () => {};
 
 	return (
-		<div className="container is-fluid">
-			<button onClick={() => handleResetClick()} className="button is-danger">
+		<div className='container is-fluid'>
+			<button onClick={() => handleResetClick()} className='button is-danger'>
 				모든 플레이리스트 리셋
 			</button>
 			<hr />
