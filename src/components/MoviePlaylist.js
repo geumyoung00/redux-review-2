@@ -6,6 +6,7 @@ function MoviePlaylist() {
 	// TODO:
 	// movie list 가져오기
 	const dispatch = useDispatch();
+
 	const moviePlaylist = useSelector(state => state.movie);
 
 	const handleMovieAdd = movie => dispatch(addMovie(movie));
